@@ -28,3 +28,10 @@ head=new_node
 temp=head
 while temp.next:
     temp=temp.next
+def display(head):
+    temp=head
+    while temp:
+        print(temp.data)
+        temp=temp.next
+display(head)
+
